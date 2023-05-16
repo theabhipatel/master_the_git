@@ -18,5 +18,11 @@
      IdentitiesOnly yes
 * provide your public key to the host 
 * with that finished your setup
- 
- - 
+
+### 2. add git config 
+* by git command 
+  Ex. - git config user.name "Abhi Patel"
+        git config user.email "abhi@gmail.com"
+* by edit the git config by command given below
+ Ex. - git config --global --edit
+        
