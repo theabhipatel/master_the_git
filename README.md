@@ -21,8 +21,8 @@
 
 ### 2. add git config 
 * by git command 
-  Ex. - git config user.name "User name"
+  - Ex. - git config user.name "User name"
       - git config user.email "user@domain.com"
 * by edit the git config by command given below
- Ex. - git config --global --edit
+ - Ex. - git config --global --edit
         
