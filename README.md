@@ -3,8 +3,13 @@
 ## How to setup ssh key in ubutu 
 ### 1. very first step 
 * go in to the home directory and then .ssh directory 
-  - Ex. cd  - for home directory
-       cd .ssh - for go into the .ssh directory
+  - Ex. 
+   ```bash
+       # for home directory
+       $ cd
+       # for go into the .ssh directory
+       $ cd .ssh
+        ```
 * generate the ssh key with different algorithams from which you want
   - Ex. ssh-keygen -t ed25519 -b 4096 -C "user@domain.com" -f key-name
 * you have received two file for key one is private key ex. (key-name) and second one is ex. (key-name.pub)
